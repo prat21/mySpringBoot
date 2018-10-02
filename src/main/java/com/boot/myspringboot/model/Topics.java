@@ -5,7 +5,7 @@ public class Topics {
 	private String desc;
 	
 	public Topics() {
-		// TODO Auto-generated constructor stub
+		// Required for Marshalling and Unmarshalling
 	}
 	
 	
