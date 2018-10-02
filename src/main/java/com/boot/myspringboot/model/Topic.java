@@ -1,15 +1,15 @@
 package com.boot.myspringboot.model;
 
-public class Topics {
+public class Topic {
 	private String name;
 	private String desc;
 	
-	public Topics() {
+	public Topic() {
 		// Required for Marshalling and Unmarshalling
 	}
 	
 	
-	public Topics(String name, String desc) {
+	public Topic(String name, String desc) {
 		this.name = name;
 		this.desc = desc;
 	}
