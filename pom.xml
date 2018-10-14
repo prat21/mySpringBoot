@@ -14,11 +14,28 @@
         <version>2.0.5.RELEASE</version>
     </parent>
     
+    <!-- Uncomment this line to use any other version of tomcat -->
+    <!-- <properties>
+    	<tomcat.version>8.0.8</tomcat.version>
+    </properties> -->
+    
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <!-- Uncomment this line to use Jetty instead of Tomcat -->
+            <!-- <exclusions>
+            	<exclusion>
+            		<groupId>org.springframework.boot</groupId>
+            		<artifactId>spring-boot-starter-tomcat</artifactId>
+            	</exclusion>
+            </exclusions> -->
         </dependency>
+        <!-- Uncomment this line to use Jetty instead of Tomcat -->
+        <!-- <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jetty</artifactId>
+		</dependency> -->
     </dependencies>
     
     <build>
